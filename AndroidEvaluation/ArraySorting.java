@@ -41,7 +41,7 @@ public class ArraySorting {
 		int num1 = 0;
 		int num2=0;
 		for (int i=0;i<primeNumbers.length;i++){
-			if (primeNumbers[i]<n){
+			if (primeNumbers[i]<=n){
 				num1=n-primeNumbers[i];
 			}
 			else if (primeNumbers[i]>n){
